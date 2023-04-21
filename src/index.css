@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fb;
+  width: 100vw;
+  font-family: "karla";
+}
+
+.main-container {
+  background-color: #f5f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.quizzical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #293264;
+  font-family: karla;
+  height: 70vh;
+  width: 100vw;
+}
+
+.quizzical-description {
+  margin-top: -10px;
+}
+
+.quizzical-button {
+  text-align: center;
+  padding: 2px;
+  color: #f5f7fb;
+  background-color: #4d5b9e;
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  font-family: karla;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quiz {
+  padding: 10px;
+}
+.quiz-question {
+  max-width: 40vw;
+  font-family: karla;
+  color: #293264;
+  font-size: 20px;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.btn-answer {
+  border-radius: 15px;
+  align-content: space-around;
+  padding: 5px 20px;
+  margin-left: 20px;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  color: #293264;
+  border-color: rgb(35, 41, 73);
+  cursor: pointer;
+}
+
+.answer-element {
+  margin-left: -10px;
+}
+
+.line {
+  margin-top: 1rem;
+  border-top: 0.794239px solid #dbdef0;
+}
+
+.game-end {
+  display: flex;
+  line-height: 12px;
+  margin-top: 40px;
+  margin-left: 200px;
+  gap: 20px;
+}
+
+.btn-checkAns {
+  background-color: #4d5b9e;
+  font-family: Inter;
+  color: #f5f7fb;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.btn-playAgain {
+  background-color: #4d5b9e;
+  font-family: Inter;
+  color: #f5f7fb;
+  border-radius: 15px;
+  padding: 10px 20px;
+  display: block;
+}
+
+.score {
+  margin-top: 14px;
+  color: #293264;
+  font-size: 20px;
+  font-family: Karla;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.results {
+  display: flex;
+  gap: 10px;
+  margin-right: 100px;
+}
+
+.blob-left {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.blob-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
